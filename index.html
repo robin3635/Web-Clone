@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web-Clone</title>
+    <!-- Logo  -->
+    <link rel="icon" href="./images/icon.jpg">
+    <!-- css style stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome icons link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!-- header Section -->
+    
+    <header>
+        <div id="navbar" class="padding-all">
+            <div class="logo border-all">
+                <a href="index.html"><img src="./images/amazon_logo.png" alt="This is a logo"></a>
+            </div>
+            
+            <!-- Deliver loacation  -->
+
+            <div class="location border-all">
+                <span class="deliver">Deliver to</span>
+                <div class="country-loa">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Bangladesh</span>
+                </div>
+            </div>
+
+            <!-- Search bar  -->
+
+            <div class="search-bar">
+                <select name="search-options" id="search-op">
+                    <option value="all">All</option>
+                </select>
+
+                <input type="text" placeholder="Search Amazon" class="search">
+
+                <button class="searc-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+
+
+            <!-- Language bar  -->
+
+            <div class="language border-all">
+                <img src="./images/us_flag.jpg" alt="flag">
+                <span id="web-lan">EN <i class="fa-solid fa-caret-down"></i></span>
+            </div>
+
+            <!-- Sign Up or sign in  -->
+
+            <div class="sign-in border-all">
+                <span>Hello, sign in</span>
+                <span id="account">Account & Lists <i class="fa-solid fa-caret-down"></i></span>
+            </div>
+
+            <!-- Returns and Others  -->
+
+            <div class="return-others border-all">
+                <span class="first">Return</span><br>
+                <span class="second">& Others</span>
+            </div>
+
+            <!-- Add to cart  -->
+
+            <div class="cart border-all">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span>Cart</span>
+            </div>
+        </div>
+
+
+        <div id="nav-links" class="padding-all">
+            <div class="all border-all">
+                <i class="fa-solid fa-bars"></i>
+                <a href="#">All</a>
+            </div>
+
+            <div class="hot-links">
+                <a href="#">Today's Deals</a>
+                <a href="#">Customer Service</a>
+                <a href="#">Registry</a>
+                <a href="#">Gift Cards</a>
+                <a href="#">Sell</a>
+            </div>
+
+            <!-- top categories  -->
+
+            <div class="categories border-all">
+                <a href="#">Shop To Categories</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main section  -->
+
+    <main>
+        
+        <section id="img-slider">
+            <img src="./images/hero_section/hreo1.jpg" alt="hero images" class="slider">
+            <img src="./images/hero_section/hero2.jpg" alt="hero images" class="slider">
+            <img src="./images/hero_section/hero3.jpg" alt="hero images" class="slider">
+            <img src="./images/hero_section/hero4.jpg" alt="hero images" class="slider">
+            <img src="./images/hero_section/hero5.jpg" alt="hero images" class="slider">
+            <img src="./images/hero_section/hero6.jpg" alt="hero images" class="slider">
+            <img src="./images/hero_section/hero7.jpg" alt="hero images" class="slider">
+            <i class="fa-solid fa-chevron-left left-slider" onclick="preImage();"></i>
+            <i class="fa-solid fa-chevron-right right-slider" onclick="nextImage();"></i>
+        </section>
+
+
+
+        <!-- Product Section  -->
+
+        <section id="product" class="padding-all">
+            <div class="item">
+                <div class="title">
+                    <h3>This is a product.</h3>
+                </div>
+                <div class="product-img">
+                   <a href="#"> <img src="./images/product/product_1.jpg" alt="This is a product image."></a>
+                </div>
+                <a href="#">See more</a>
+            </div>
+        
+            <div class="item">
+                <div class="title">
+                    <h3>This is a product.</h3>
+                </div>
+                <div class="product-img">
+                   <a href="#"> <img src="./images/product/product_2.jpg" alt="This is a product image."></a>
+                </div>
+                <a href="#">See more</a>
+            </div>
+        
+            <div class="item">
+                <div class="title">
+                    <h3>This is a product.</h3>
+                </div>
+                <div class="product-img">
+                   <a href="#"> <img src="./images/product/product_3.jpg" alt="This is a product image."></a>
+                </div>
+                <a href="#">See more</a>
+            </div>
+        
+            <div class="item">
+                <div class="title">
+                    <h3>This is a product.</h3>
+                </div>
+                <div class="product-img">
+                   <a href="#"> <img src="./images/product/product_4.jpg" alt="This is a product image."></a>
+                </div>
+                <a href="#">See more</a>
+            </div>
+        
+            <div class="item">
+                <div class="title">
+                    <h3>This is a product.</h3>
+                </div>
+                <div class="product-img">
+                   <a href="#"> <img src="./images/product/Product_5.jpg" alt="This is a product image."></a>
+                </div>
+                <a href="#">See more</a>
+            </div>
+        
+            <div class="item">
+                <div class="title">
+                    <h3>This is a product.</h3>
+                </div>
+                <div class="product-img">
+                   <a href="#"> <img src="./images/product/product_6.jpg" alt="This is a product image."></a>
+                </div>
+                <a href="#">See more</a>
+            </div>
+        
+            <div class="item">
+                <div class="title">
+                    <h3>This is a product.</h3>
+                </div>
+                <div class="product-img">
+                   <a href="#"> <img src="./images/product/product_7.jpg" alt="This is a product image."></a>
+                </div>
+                <a href="#">See more</a>
+            </div>
+        
+            <div class="item">
+                <div class="title">
+                    <h3>This is a product.</h3>
+                </div>
+                <div class="product-img">
+                   <a href="#"> <img src="./images/product/product_8.jpg" alt="This is a product image."></a>
+                </div>
+                <a href="#">See more</a>
+            </div>
+        
+            <div class="item">
+                <div class="title">
+                    <h3>This is a product.</h3>
+                </div>
+                <div class="product-img">
+                   <a href="#"> <img src="./images/product/product_9.jpg" alt="This is a product image."></a>
+                </div>
+                <a href="#">See more</a>
+            </div>
+        
+            <div class="item">
+                <div class="title">
+                    <h3>This is a product.</h3>
+                </div>
+                <div class="product-img">
+                   <a href="#"> <img src="./images/product/product_10.jpg" alt="This is a product image."></a>
+                </div>
+                <a href="#">See more</a>
+            </div>
+        
+            <div class="item">
+                <div class="title">
+                    <h3>This is a product.</h3>
+                </div>
+                <div class="product-img">
+                   <a href="#"> <img src="./images/product/product_11.jpg" alt="This is a product image."></a>
+                </div>
+                <a href="#">See more</a>
+            </div>
+        
+            <div class="item">
+                <div class="title">
+                    <h3>This is a product.</h3>
+                </div>
+                <div class="product-img">
+                   <a href="#"> <img src="./images/product/product_12.jpg" alt="This is a product image."></a>
+                </div>
+                <a href="#">See more</a>
+            </div>
+        
+            <div class="item">
+                <div class="title">
+                    <h3>This is a product.</h3>
+                </div>
+                <div class="product-img">
+                   <a href="#"> <img src="./images/product/product_13.jpg" alt="This is a product image."></a>
+                </div>
+                <a href="#">See more</a>
+            </div>
+        
+            <!-- multiple items  -->
+        
+            <div class="item multiple-items">
+                <div class="title">
+                    <h3>This is a product.</h3>
+                </div>
+                <div class="product-img product-img2">
+                    <div class="itemlist">
+                        <a href="#"> <img src="./images/product/multiple_products/first_div/product_1.jpg" alt="This is a product image."></a>
+                        <span>Product </span>
+                    </div>
+        
+                    <div class="itemlist">
+                        <a href="#"> <img src="./images/product/multiple_products/first_div/product_2.jpg" alt="This is a product image."></a>
+                        <span>Product </span>
+                    </div>
+        
+                    <div class="itemlist">
+                        <a href="#"> <img src="./images/product/multiple_products/first_div/product_3.jpg" alt="This is a product image."></a>
+                        <span>Product </span>
+                    </div>
+        
+                    <div class="itemlist">
+                        <a href="#"> <img src="./images/product/multiple_products/first_div/product_4.jpg" alt="This is a product image."></a>
+                        <span>Product </span>
+                    </div>
+                </div>
+                <a href="#">See more</a>
+            </div>
+        
+            <div class="item multiple-items">
+                <div class="title">
+                    <h3>This is a product.</h3>
+                </div>
+                <div class="product-img product-img2">
+                    <div class="itemlist">
+                        <a href="#"> <img src="./images/product/multiple_products/second_div/product_1.jpg" alt="This is a product image."></a>
+                        <span>Product </span>
+                    </div>
+        
+                    <div class="itemlist">
+                        <a href="#"> <img src="./images/product/multiple_products/second_div/product_2.jpg" alt="This is a product image."></a>
+                        <span>Product </span>
+                    </div>
+        
+                    <div class="itemlist">
+                        <a href="#"> <img src="./images/product/multiple_products/second_div/product_3.jpg" alt="This is a product image."></a>
+                        <span>Product </span>
+                    </div>
+        
+                    <div class="itemlist">
+                        <a href="#"> <img src="./images/product/multiple_products/second_div/product_4.jpg" alt="This is a product image."></a>
+                        <span>Product </span>
+                    </div>
+                </div>
+                <a href="#">See more</a>
+            </div>
+        
+            <div class="item multiple-items">
+                <div class="title">
+                    <h3>This is a product.</h3>
+                </div>
+                <div class="product-img product-img2">
+                    <div class="itemlist">
+                        <a href="#"> <img src="./images/product/multiple_products/third_div/product_1.jpg" alt="This is a product image."></a>
+                        <span>Product </span>
+                    </div>
+        
+                    <div class="itemlist">
+                        <a href="#"> <img src="./images/product/multiple_products/third_div/product_2.jpg" alt="This is a product image."></a>
+                        <span>Product </span>
+                    </div>
+        
+                    <div class="itemlist">
+                        <a href="#"> <img src="./images/product/multiple_products/third_div/product_3.jpg" alt="This is a product image."></a>
+                        <span>Product </span>
+                    </div>
+        
+                    <div class="itemlist">
+                        <a href="#"> <img src="./images/product/multiple_products/third_div/product_4.jpg "alt="This is a product image."></a>
+                        <span>Product </span>
+                    </div>
+                </div>
+                <a href="#">See more</a>
+            </div>
+        
+            <!-- banner item  -->
+        
+        
+            <div class="banner margin-all">
+                <h4>Banner item and Populer Products</h4>
+                <div class="banner-items">
+                    <div class="container">
+                        <div class="items-list">
+                            <a href="#"><img src="./images/product/banner/banner_1/product_1.jpg" alt="banner items."></a>
+                        </div>
+                        <div class="des">
+                            <p class="discount"><span>25% off</span>Deal</p>
+                            <p>$<span class="price">10.12</span> List Price: <span class="cut-price">12.99</span></p>
+                            <p>Eucerin Intensive Repair Body Lotion,....</p>
+                        </div>
+                    </div>
+        
+                    <div class="container">
+                        <div class="items-list">
+                            <a href="#"><img src="./images/product/banner/banner_1/product_2.jpg" alt="banner items."></a>
+                        </div>
+                        <div class="des">
+                            <p class="discount"><span>25% off</span>Deal</p>
+                            <p>$<span class="price">10.12</span> List Price: <span class="cut-price">12.99</span></p>
+                            <p>Eucerin Intensive Repair Body Lotion,....</p>
+                        </div>
+                    </div>
+        
+                    <div class="container">
+                        <div class="items-list">
+                            <a href="#"><img src="./images/product/banner/banner_1/product_3.jpg" alt="banner items."></a>
+                        </div>
+                        <div class="des">
+                            <p class="discount"><span>25% off</span>Deal</p>
+                            <p>$<span class="price">10.12</span> List Price: <span class="cut-price">12.99</span></p>
+                            <p>Eucerin Intensive Repair Body Lotion,....</p>
+                        </div>
+                    </div>
+        
+                    <div class="container">
+                        <div class="items-list">
+                            <a href="#"><img src="./images/product/banner/banner_1/product_4.jpg" alt="banner items."></a>
+                        </div>
+                        <div class="des">
+                            <p class="discount"><span>25% off</span>Deal</p>
+                            <p>$<span class="price">10.12</span> List Price: <span class="cut-price">12.99</span></p>
+                            <p>Eucerin Intensive Repair Body Lotion,....</p>
+                        </div>
+                    </div>
+        
+                    <div class="container">
+                        <div class="items-list">
+                            <a href="#"><img src="./images/product/banner/banner_1/product_6.jpg" alt="banner items."></a>
+                        </div>
+                        <div class="des">
+                            <p class="discount"><span>25% off</span>Deal</p>
+                            <p>$<span class="price">10.12</span> List Price: <span class="cut-price">12.99</span></p>
+                            <p>Eucerin Intensive Repair Body Lotion,....</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- banner 2 item  -->
+        
+            <div class="banner2 margin-all">
+                <h4>Top Sellers in Books for you</h4>
+                <div class="container">
+                    <div class="item-img">
+                        <a href="#"><img src="./images/product/banner/banner_2/product_1.jpg" alt="Banner 2 items."></a>
+                    </div>
+        
+                    <div class="item-img">
+                        <a href="#"><img src="./images/product/banner/banner_2/product_2.jpg" alt="Banner 2 items."></a>
+                    </div>
+        
+                    <div class="item-img">
+                        <a href="#"><img src="./images/product/banner/banner_2/product_3.jpg" alt="Banner 2 items."></a>
+                    </div>
+        
+                    <div class="item-img">
+                        <a href="#"><img src="./images/product/banner/banner_2/product_7.jpg" alt="Banner 2 items."></a>
+                    </div>
+        
+                    <div class="item-img">
+                        <a href="#"><img src="./images/product/banner/banner_2/product_8.jpg" alt="Banner 2 items."></a>
+                    </div>
+        
+                    <div class="item-img">
+                        <a href="#"><img src="./images/product/banner/banner_2/product_6.jpg" alt="Banner 2 items."></a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- footer Section  -->
+
+    <footer>
+        <section class="login">
+            <span class="text">See personalized recommendations</span>
+            <button class="login-btn">Sign in</button>
+            <span class="start-link">New customer?<a href="#">Start here.</a></span>
+        </section>
+
+        <!-- footer links  -->
+
+        <section class="footer-links">
+            <a href="index.html">
+                <div class="back">
+                    <span>Back to top</span>
+                </div>
+            </a>
+
+            <!-- Other information links -->
+
+            <div class="info-links footer-padding">
+                <div class="links">
+                    <span>Get to Know Us</span>
+                    <ul>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">About Amazon</a></li>
+                        <li><a href="#">Investor Relations</a></li>
+                        <li><a href="#">Amazon Devices</a></li>
+                        <li><a href="#">Amazon Science</a></li>
+                    </ul>
+                </div>
+
+                <div class="links">
+                    <span>Make Money with Us</span>
+                    <ul>
+                        <li><a href="#">Make Money with Us</a></li>
+                        <li><a href="#">Sell products on Amazon</a></li>
+                        <li><a href="#">Sell on Amazon Business</a></li>
+                        <li><a href="#">Sell apps on Amazon</a></li>
+                        <li><a href="#">Become an Affiliate</a></li>
+                        <li><a href="#">Advertise Your Products</a></li>
+                        <li><a href="#">Self-Publish with Us</a></li>
+                        <li><a href="#">Host an Amazon Hub</a></li>
+                        <li><a href="#">›See More Make Money with Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="links">
+                    <span>Amazon Payment Products</span>
+                    <ul>
+                        <li><a href="#">Amazon Business Card</a></li>
+                        <li><a href="#">Shop with Points</a></li>
+                        <li><a href="#">Reload Your Balance</a></li>
+                        <li><a href="#">Amazon Currency Converter</a></li>
+                    </ul>
+                </div>
+
+                <div class="links">
+                    <span>Let Us Help You</span>
+                    <ul>
+                        <li><a href="#">Amazon and COVID-19</a></li>
+                        <li><a href="#">Your Account</a></li>
+                        <li><a href="#">Your Orders</a></li>
+                        <li><a href="#">Shipping Rates & Policies</a></li>
+                        <li><a href="#">Returns & Replacements</a></li>
+                        <li><a href="#">Manage Your Content and Devices</a></li>
+                        <li><a href="#">Amazon Assistant</a></li>
+                        <li><a href="#">Help</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- footer-logo  -->
+
+            <div class="footer-logo">
+                <div class="logo">
+                    <a href="index.html"><img src="./images/amazon_logo.png" alt="This is a logo"></a>
+                </div>
+                <div class="aditional-things">
+                    <div class="lan">
+                        <i class="fa-solid fa-globe"></i>
+                        <span>English</span>
+                    </div>
+
+                    <a href="#">
+                        <div class="currency">
+                            $ <span>USD - U.S. Dollar</span>
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="country">
+                            <img src="./images/us_flag.jpg" alt="us_flag">
+                            <span>United State</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <a href="#">Conditions of Use</a>
+                <a href="#">Privacy Notice</a>
+                <a href="#">Your Ads Privacy Choices</a><br>
+                <span>© 1996-2023, Amazon.com, Inc. or its affiliates</span>
+            </div>
+        </section>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
